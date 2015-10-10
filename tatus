@@ -1,0 +1,55 @@
+[1mdiff --git a/src/teema1/Peamurdja1_foor.java b/src/teema1/Peamurdja1_foor.java[m
+[1mindex caaf26c..aca29b8 100644[m
+[1m--- a/src/teema1/Peamurdja1_foor.java[m
+[1m+++ b/src/teema1/Peamurdja1_foor.java[m
+[36m@@ -1,5 +1,7 @@[m
+ package teema1;[m
+ [m
+[32m+[m[32mimport javafx.application.Application;[m
+[32m+[m[32mimport javafx.stage.Stage;[m
+ import lib.Foor;[m
+ [m
+ /**[m
+[36m@@ -17,5 +19,41 @@[m [mimport lib.Foor;[m
+  * NB! Kui kirjutad new Foor(); siis IDE pakub sulle Foori importimise võimalust.[m
+  * Kliki punase teksti peale ja vajuta alt+enter.[m
+  */[m
+[31m-public class Peamurdja1_foor {[m
+[32m+[m[32mpublic class Peamurdja1_foor extends Application{[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public void start(Stage primaryStage) throws Exception {[m
+[32m+[m[32m       Foor foor = new Foor ();[m
+[32m+[m[32m        foor.vahetaPunast();[m
+[32m+[m[32m        foor.paus(1.5);[m
+[32m+[m
+[32m+[m[32m        int count = 0;[m
+[32m+[m[32m        while (count < 1) {[m
+[32m+[m[32m            foor.vahetaKollast();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaPunast();[m
+[32m+[m[32m            foor.vahetaKollast();[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.paus(1.5);[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaRohelist();[m
+[32m+[m[32m            foor.vahetaKollast();[m
+[32m+[m[32m            foor.paus(0.5);[m
+[32m+[m[32m            foor.vahetaKollast();[m
+[32m+[m[32m            foor.vahetaPunast();[m
+[32m+[m[32m            foor.paus(1.5);[m
+[32m+[m[32m            count = count + 1;[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m    }[m
+ }[m
