@@ -26,7 +26,7 @@ public class Peamurdja2_ristmik extends Application {
 
     public void tsykkel(Foor foor, int suund) {
         int count = suund;
-        while(count < 10) {
+        while (count < 10) {
             if (count != 0) {
                 foor.vahetaPunast();
                 foor.paus(6);
@@ -49,10 +49,10 @@ public class Peamurdja2_ristmik extends Application {
 
             count++;
 
-            }
-
         }
+
     }
+}
 
 
 
