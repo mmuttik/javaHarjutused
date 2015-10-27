@@ -10,13 +10,16 @@ package teema1;
 public class Harjutus2_meetodid {
 
     public static void main(String[] args) {
+        int arv = 3;
+        int arvkuubis = arvukuup (arv);
+        System.out.println(arvkuubis);
     }
 
-    public static int tostaKuupi(int arv) {
-        return 0;
+    public static int arvukuup (int arv) {
+        return (int) Math.pow(arv,3);
     }
 
-    public static int kasutajaSisestus(String kysimus, int min, int max) {
-        return 0;
+   // public static int kasutajaSisestus(String kysimus, int min, int max) {
+       // return 0;
     }
-}
+

@@ -51,7 +51,7 @@ public class Peamurdja1_foor extends Application {
             foor.vahetaPunast();
             foor.paus(1.5);
 
-            count = count + 1;
+            count += 1;
 
         }
     }
