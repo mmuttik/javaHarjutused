@@ -1,7 +1,5 @@
 package teema1;
 
-import java.util.Scanner;
-
 /**
  * 1. Salvesta kasutajalt 10 numbrit ja sorteeri suuruse järgi. (int[])
  * 2. Salvesta kasutajalt 10 sõne ja sorteeri tähestikulises järjekorras. (String[])
@@ -12,7 +10,7 @@ import java.util.Scanner;
  */
 public class Harjutus4_massiivid {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int[] namelist = new int[10];
         System.out.println("Sisesta 10 numbrit: ");
         Scanner skanner = new Scanner(System.in);
@@ -23,7 +21,6 @@ public class Harjutus4_massiivid {
     }
 }
 
-
     /*public static void main(String[] args) {
 
         Scanner skanner = new Scanner(System.in);
@@ -32,3 +29,4 @@ public class Harjutus4_massiivid {
     }
 
 }*/
+}

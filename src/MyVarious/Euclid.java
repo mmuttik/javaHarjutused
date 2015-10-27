@@ -1,4 +1,4 @@
-package teema1;
+package MyVarious;
 
 /**
  * Created by kasutaja on 19.10.2015.
