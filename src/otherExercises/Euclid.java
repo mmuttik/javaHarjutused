@@ -1,4 +1,4 @@
-package MyVarious;
+package otherExercises;
 
 /**
  * Created by kasutaja on 19.10.2015.
