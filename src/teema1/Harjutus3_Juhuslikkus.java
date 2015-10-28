@@ -47,8 +47,6 @@ public class Harjutus3_Juhuslikkus {
         } else if (minul_kokku == arvutil_kokku) {
             System.out.println("Viik");
         } else
-
-
             System.out.println("Arvuti võitis skooriga " + arvutil_kokku);
 
     }
