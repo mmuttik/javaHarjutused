@@ -14,21 +14,20 @@ import java.util.Scanner;
 public class Harjutus4_massiivid {
 
     public static void main(String[] args) {
+
         Scanner sisestus = new Scanner(System.in);
         int[]   numbrid  = new int[10];
-
-        for (int i = 0; i < numbrid.length; i++) {          // Variable i takes the values from 0 to 9
-
-         System.out.println("Sisesta 10 numbrit: ");
-            numbrid [i] = sisestus.nextInt();
-
+        System.out.println("Sisesta 10 numbrit: ");
+        for (int i = 0; i < numbrid.length; i++) {          // Sisestab massiivi mälupesadesse (0-9) kasutaja poolt sisestatud arvud
+        }
 
         Arrays.sort(numbrid);
         for (int i = 0; i < numbrid.length; i++) {
-            System.out.println(numbrid[i]);
+            System.out.print(numbrid[i] + " ");
 
         }
     }
 }
+
 
 
