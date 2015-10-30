@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by kasutaja on 18.10.2015.
  */
-public class Laevad_9x9 {
+public class LaevadePommitamineKerstiM {
     public static void main(String[] args) {
 
         int boardRows    = 3;

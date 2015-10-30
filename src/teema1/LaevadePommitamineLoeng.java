@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * Kontrollida kas on veel laevu
  * Kui laevad otsas - mäng läbi; või uuesti sisendi juurde
  */
-public class LaevadePommitamineKrister {
+public class LaevadePommitamineLoeng {
 
 
     public static void main(String[] args) {
