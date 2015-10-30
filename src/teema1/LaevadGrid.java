@@ -18,7 +18,7 @@ public class LaevadGrid {
 
         genereeriLaud();
         paigutaLaevad();
-        kysiKasutajallt();
+        kysiKasutajalt();
         kontrolliTabamust();
         kasOnLaevuAlles();
         gameover();
@@ -36,7 +36,7 @@ public class LaevadGrid {
 
     }
 
-    private static void kysiKasutajallt() {
+    private static void kysiKasutajalt() {
         System.out.println("Sisesta x ja y koordinaadid (tyhik vahel): ");
         // Kasutaja sisestas nt 5 ja 6 (eraldatud tühikutega), selleks loome int x = sisestus.charAt();
         String sisestus = sc.nextLine();
