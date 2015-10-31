@@ -57,7 +57,7 @@ public class LaevadGrid {
 
     private static void genereeriLaud() {
         // System.out.println("K2ivitan meetodi"); // Testiks, et meetod töötab
-        laud = new int[lauaKorgus][lauaLaius];      //
+        laud = new int[lauaKorgus][lauaLaius];
 
 
     }
