@@ -50,7 +50,7 @@ public class LaevadGrid {
             for (int j = 0; j < lauaLaius; j++) {
                 laud[i][j] = (int) Math.round(Math.random()); // Randomiga genereerime laevad, round ümardab (korrutades randomi nt 0.7-ga saame 1-sid lauale rohkem)
             }
-            System.out.println(Arrays.toString(laud[i]));
+            System.out.println(Arrays.toString(laud[i])); //Prindime laua
         }
 
     }
