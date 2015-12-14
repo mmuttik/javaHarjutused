@@ -11,40 +11,27 @@ import java.util.Scanner;
  */
 public class Harjutus2_meetodid {
 
-
-    // Ülesanne 1&2. Loon main meetodis muutujad ja impordin scanneri.
     public static void main(String[] args) {
+        int kuup = tostaKuupi(3);
+        System.out.println(kuup);
 
-        Scanner kasutajaSisestus = new Scanner(System.in);
-        int     arv;
-        System.out.println("Ül.1 Sisesta täisarv: ");
-        arv = kasutajaSisestus.nextInt();
-        System.out.println("Arv kuubis: " + arvukuup(arv));
-        kasutajaSisestus("Sisesta täisarv: ", 1, 100);   //Ül.2 jaoks
+        kasutajaSisestus("Mitu tähte on meie päikesesüsteemis?", 0, 1);
     }
 
-    // Ül.1 lahendus.
-    public static int arvukuup(int arv) {
-        return (int) Math.pow(arv, 3);      //Math.pow astendamiseks
+    public static int tostaKuupi(int arv) {
+        return arv * 3;
     }
 
-    //Ülesanne 2. Muudan meetodi voidiks, sest see ei tagasta midagi
-    public static void kasutajaSisestus(String kysimus, int min, int max) {
-        boolean arvVahemikus = false;
-        while (!arvVahemikus) {
-            Scanner sisestaTäisarv = new Scanner(System.in);
-            System.out.println(kysimus);            //Küsib küsimuse "Sisesta täisarv: "
-            int arv = sisestaTäisarv.nextInt();
-            if (arv <= min) {
-                System.out.println("Sisesta palun suurem täisarv");
-            } else {
-                if (arv >= max) {
-                    System.out.println("Sisesta täisarv, mis väiksem, kui 100");
-                } else {
-                    System.out.println("Number " + arv + "-ga oled lubatud vahemikus");
-                    arvVahemikus = true;
-                }
-            }
+    public static int kasutajaSisestus(String kysimus, int min, int max) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(kysimus);
+        int sisestus = sc.nextInt();
+        if (sisestus > min && sisestus <= max) {
+            System.out.println("Õige!");
+            return sisestus;
+        } else {
+            System.out.println("Vale vastus, proovi uuesti!");
+            return kasutajaSisestus(kysimus, min, max);
         }
     }
 }

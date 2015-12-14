@@ -20,22 +20,22 @@ import lib.Foor;
  * Kliki punase teksti peale ja vajuta alt+enter.
  */
 public class Peamurdja1_foor extends Application {
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         Foor foor = new Foor();
+
         foor.vahetaPunast();
-        foor.paus(2);
 
         int count = 0;
-        while (count < 5) {
-
+        while (count < 10) {
+            foor.paus(2);
             foor.vahetaKollast();
-            foor.paus(1);
+            foor.paus(0.6);
             foor.vahetaPunast();
             foor.vahetaKollast();
             foor.vahetaRohelist();
-            foor.paus(1.5);
+            foor.paus(2);
+
             foor.vahetaRohelist();
             foor.paus(0.5);
             foor.vahetaRohelist();
@@ -49,10 +49,8 @@ public class Peamurdja1_foor extends Application {
             foor.paus(0.5);
             foor.vahetaKollast();
             foor.vahetaPunast();
-            foor.paus(1.5);
-
-            count += 1;
-
+            count = count + 1;
         }
     }
 }
+
