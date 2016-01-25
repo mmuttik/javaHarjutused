@@ -32,24 +32,5 @@ public class JavaFX extends Application {
 
         primaryStage.setScene(scene);
         primaryStage.show();
-
-      /*  // Estakaadi lahendus
-        VBox kastid = new VBox();
-        Scene scene = new Scene(kastid, 150, 150);
-        primaryStage.setScene(scene);
-
-        Label silt = new Label("mingi");
-        TextField kirjuta = new TextField();
-
-        kirjuta.setOnAction(event -> {
-            String b = kirjuta.getText();
-            System.out.println(b);
-            silt.setText(b);
-        });
-
-        kastid.getChildren().addAll(silt, kirjuta);
-
-        primaryStage.show();*/
-
     }
 }

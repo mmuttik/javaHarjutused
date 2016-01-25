@@ -1,11 +1,13 @@
 package prooviEksam;
 
-/**
+/*
  * Siin failis kasutatakse objekti prooviEksam.Kassa, aga prooviEksam.Kassa klassi ei eksisteeri. Sinu ülesanne
  * on see luua. Pane tähele, et mitte ükski objekti muutuja ei tohi olla
  * kättesaadav objektist väljaspoolt.
  *
- * Käesolevat klassi ei tohi muuta - mitte ühtegi tähemärki! Arvad, et ei jää vahele? :)*/
+ * Käesolevat klassi ei tohi muuta - mitte ühtegi tähemärki! Arvad, et ei jää vahele? :)
+
+*/
 
 
 public class Objektorienteeritus {

@@ -29,7 +29,7 @@ public class Maatriks_Bingo {
                     vastus[i][j] = "#";
 
                 } else {
-                    vastus[i][j] = ".";
+                    vastus[i][j] = " ";
 
                 }
                 System.out.print(vastus[i][j] + " ");
