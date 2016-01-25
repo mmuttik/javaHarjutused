@@ -1,4 +1,4 @@
-package prooviEksamOther;
+package prooviEksamKrister;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

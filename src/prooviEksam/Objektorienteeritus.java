@@ -10,7 +10,7 @@ package prooviEksam;
 */
 
 
-public class Objektorienteeritus {
+/*public class Objektorienteeritus {
 
     public static void main(String[] args) {
 
@@ -35,7 +35,7 @@ public class Objektorienteeritus {
         System.out.println("Klient ostis järgmised tooted: " + kassa.votaTooted());
         System.out.println("Tooteid on kokku: " + kassa.votaToodeteArv());
     }
-}
+}*/
 
 /*
 // Estakaad

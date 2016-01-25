@@ -3,7 +3,7 @@ package teema1;
 import java.util.ArrayList;
 
 /**
- * prooviEksam.Algoritm:
+ * prooviEksam.prooviEksamOtherVer.Algoritm:
  * M�ngulaud
  * T�ida laud laevadega
  * K�sida kasutajalt kuhu lasta

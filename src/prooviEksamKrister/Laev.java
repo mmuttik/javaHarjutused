@@ -1,4 +1,4 @@
-package prooviEksamOther;
+package prooviEksamKrister;
 
 import java.util.ArrayList;
 import java.util.Random;

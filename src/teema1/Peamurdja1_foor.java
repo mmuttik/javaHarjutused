@@ -9,7 +9,7 @@ import lib.Foor;
  * Foori kasutusjuhend: https://github.com/KristerV/javaHarjutused
  * <p>
  * Abiks on "Naidis_KollaneVilkuja" klass, kus on juba kollane tuli vilkuma pandud.
- * Lisaks tuleb teada, et Foor on prooviEksam.JavaFX programm. Tavalise programmiga
+ * Lisaks tuleb teada, et Foor on prooviEksam.prooviEksamOtherVer.JavaFX programm. Tavalise programmiga
  * on kaks erinevust: klass peab laiendama (extends) teist klassi nimega
  * Application ja programm mitte ei alga main() meetodi seest, vaid
  * hoopis start() meetodi seest. Vaata Naidis_KollaneVilkuja näidet. Muide,

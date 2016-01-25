@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class LaevadGrid {
 
     static int[][] laud;
-    static int     lauaLaius  = 3;
-    static int     lauaKorgus = 3;
+    static int     lauaLaius  = 10;
+    static int     lauaKorgus = 10;
     static Scanner sc         = new Scanner(System.in);   // Loome scanneri siia, sest kasutame seda paljudes meetodites
 
 
@@ -38,9 +38,9 @@ public class LaevadGrid {
 
     private static void kysiKasutajalt() {
         System.out.println("Sisesta x ja y koordinaadid (tyhik vahel): ");
-        // Kasutaja sisestas nt 5 ja 6 (eraldatud tühikutega), selleks loome int x = sisestus.charAt();
+        // Kasutaja sisestas nt 5 ja 6 (eraldatud tï¿½hikutega), selleks loome int x = sisestus.charAt();
         String sisestus = sc.nextLine();
-        int    x        = Integer.parseInt(sisestus.substring(0, 1));   // Kasutaja sisestab stringina, lööme int-deks
+        int    x        = Integer.parseInt(sisestus.substring(0, 1));   // Kasutaja sisestab stringina, lï¿½ï¿½me int-deks
         int    y        = Integer.parseInt(sisestus.substring(2, 3));
         System.out.println("Kasutaja sisestas x: " + x + " y: " + y);
     }
@@ -48,7 +48,7 @@ public class LaevadGrid {
     private static void paigutaLaevad() {
         for (int i = 0; i < lauaKorgus; i++) {
             for (int j = 0; j < lauaLaius; j++) {
-                laud[i][j] = (int) Math.round(Math.random()); // Randomiga genereerime laevad, round ümardab (korrutades randomi nt 0.7-ga saame 1-sid lauale rohkem)
+                laud[i][j] = (int) Math.round(Math.random()); // Randomiga genereerime laevad, round ï¿½mardab (korrutades randomi nt 0.7-ga saame 1-sid lauale rohkem)
             }
             System.out.println(Arrays.toString(laud[i])); //Prindime laua
         }
@@ -56,7 +56,7 @@ public class LaevadGrid {
     }
 
     private static void genereeriLaud() {
-        // System.out.println("K2ivitan meetodi"); // Testiks, et meetod töötab
+        // System.out.println("K2ivitan meetodi"); // Testiks, et meetod tï¿½ï¿½tab
         laud = new int[lauaKorgus][lauaLaius];
 
 

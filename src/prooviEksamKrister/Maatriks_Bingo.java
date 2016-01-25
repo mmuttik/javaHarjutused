@@ -1,4 +1,4 @@
-package prooviEksamOther;
+package prooviEksamKrister;
 
 /**
  * Prindi konsooli 9x9 maatriks selliselt, et
