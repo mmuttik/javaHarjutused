@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Hinne {
@@ -13,10 +14,12 @@ public class Hinne {
    } // main
 
 
-   /** Hinde arvutamine.
+   */
+/** Hinde arvutamine.
     * @param d protsent
     * @return hinne s�nades
-    */
+    *//*
+
    public static String hinne (double d) {
       // TODO!!! Siia lisage arvutamine
       return ("pole teada");
@@ -24,3 +27,4 @@ public class Hinne {
 
 } // other.Hinne
 
+*/

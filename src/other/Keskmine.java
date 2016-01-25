@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Keskmine {
@@ -35,3 +36,4 @@ public class Keskmine {
 
 } // other.Keskmine
 
+*/

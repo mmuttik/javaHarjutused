@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Fnaide {
@@ -27,3 +28,4 @@ public class Fnaide {
 
 } // other.Fnaide
 
+*/

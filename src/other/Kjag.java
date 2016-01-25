@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Kjag {
@@ -17,3 +18,4 @@ public class Kjag {
 
 } // other.Kjag
 
+*/

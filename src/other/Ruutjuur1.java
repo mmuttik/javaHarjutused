@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Ruutjuur1 {
@@ -16,4 +17,5 @@ public class Ruutjuur1 {
    } // main
 
 } // other.Ruutjuur1
+*/
 

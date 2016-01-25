@@ -1,3 +1,4 @@
+/*
 package other;
 
 public class Ruutvorrand {
@@ -32,3 +33,4 @@ public class Ruutvorrand {
 
 } // other.Ruutvorrand
 
+*/
