@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Sportlase punktisumma arvutatakse üksikkatsetest saadud punktide summana, millest maha võetud kahe halvima katse tulemused

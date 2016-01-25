@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Kirjuta funktsioon valiVahemik, mis võtab ühe int tüüpi argumendi ja tagastab:

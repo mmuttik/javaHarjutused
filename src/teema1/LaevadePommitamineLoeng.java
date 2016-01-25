@@ -3,13 +3,13 @@ package teema1;
 import java.util.ArrayList;
 
 /**
- * Algoritm:
- * Mängulaud
- * Täida laud laevadega
- * Küsida kasutajalt kuhu lasta
+ * prooviEksam.Algoritm:
+ * Mï¿½ngulaud
+ * Tï¿½ida laud laevadega
+ * Kï¿½sida kasutajalt kuhu lasta
  * Pommitamise feedback
  * Kontrollida kas on veel laevu
- * Kui laevad otsas - mäng läbi; või uuesti sisendi juurde
+ * Kui laevad otsas - mï¿½ng lï¿½bi; vï¿½i uuesti sisendi juurde
  */
 public class LaevadePommitamineLoeng {
 
@@ -49,17 +49,17 @@ public class LaevadePommitamineLoeng {
 
         //laud = new int[9][9];
 
-        //ArrayList näide
+        //ArrayList nï¿½ide
 
         ArrayList a = new ArrayList();
         a.add(7);
         System.out.println(a.toString());
 
-        // Jaanuse näide
+        // Jaanuse nï¿½ide
         /*int [][] m;                       // massiivi kirjeldamine
-        m = new int [2][];                // mälu reserveerimine esimesel tasemel
+        m = new int [2][];                // mï¿½lu reserveerimine esimesel tasemel
         // System.out.println (m.length);    // massiivi pikkus (esimene tase)
-        m[0] = new int [4];               // mälu rerveerim. teisel tasemel
+        m[0] = new int [4];               // mï¿½lu rerveerim. teisel tasemel
         m[0][0] = -8;                     // omistamine elemendile
         m[1] = new int [3];
         m[1][0] = 9;

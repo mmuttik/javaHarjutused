@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Koostada Java meetod, mis leiab kahe etteantud reaalarvu absoluutväärtuste summa.

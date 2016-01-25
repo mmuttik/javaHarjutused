@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Koostada Java meetod, mis teeb kindlaks, kas etteantud täisarv n on rangelt positiivne paarisarv.

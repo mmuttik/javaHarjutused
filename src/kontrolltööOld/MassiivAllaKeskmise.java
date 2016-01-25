@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Koostada Java meetod, mis leiab etteantud reaalarvude massiivi d põhjal niisuguste elementide arvu, mis on rangelt väiksemad

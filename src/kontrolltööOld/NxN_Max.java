@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 import java.util.Arrays;
 

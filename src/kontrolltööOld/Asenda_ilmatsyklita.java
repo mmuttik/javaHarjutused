@@ -1,4 +1,4 @@
-package KT;
+package kontrolltööOld;
 
 /**
  * Created by X1 on 8.12.2015.
