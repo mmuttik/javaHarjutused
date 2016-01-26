@@ -25,6 +25,4 @@ public class OKHandlerClass implements EventHandler<ActionEvent> {
             System.out.println();
         }
     }
-
-
 }
