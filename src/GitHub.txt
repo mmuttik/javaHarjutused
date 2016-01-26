@@ -1,0 +1,18 @@
+Linux:
+
+pwd - 			kus olen?
+cd - 			mine/go
+mkdir - 		uue kausta loomine
+git - 			kas on git installitud?
+ctrl+shift+v - 		paste
+git clone
+git status
+git diff
+git add --all
+git commit -m "kommentaar"
+git push
+
+Win:
+
+Kõik muu peaks funkama...ainult, et "paste" on alt+space+e+p ("copy" alt+space+e+k) ja minu arvutis üleüldse
+"paste" on ctrl+shift+fn+i (fn+i on "insert").

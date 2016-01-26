@@ -1,0 +1,16 @@
+ctrl + /; ctrl + shift + / - 		minu arvutis v�lja kommenteerimiseks
+
+ctrl + shift + F10 - 			run program
+
+ctrl + alt + l - 			treppimine
+
+ctrl + q - 				info iga funktsiooni jne kohta
+
+ctrl + s - 				save
+
+ctrl + d - 				dubleerib rea
+
+alt + j - 				valib �hesugused t�hed/numbrid, et neid korraga muuta
+
+ctrl + alt + a -        add to git
+

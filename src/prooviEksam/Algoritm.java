@@ -22,6 +22,7 @@ public class Algoritm {
     // Siia meetodi sisse kirjuta lahendus.
     private static int allaMediaani(int[] ints) {
 
+
         for (int i = 0; i < ints.length; i++) {
             if (ints[i] > 60) {
                 ints[i] = 60;
