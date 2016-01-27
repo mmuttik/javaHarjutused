@@ -39,7 +39,7 @@ public class Sudoku_Grigori {
 
         }
 
-        System.out.println("Sudoku");
+        System.out.println("Sudoku_Numbritega");
         for (int m = 0; m < result.length; m++) {
             for (int p = 0; p < result[m].length; p++) {
                 System.out.print(result[m][p] + " ");

@@ -6,7 +6,7 @@ package kontrolltööOld;
  */
 public class MassiivRangeltSuuremad {
     public static void main(String[] args) {
-        System.out.println(keskmisestParemaid(new double[]{0., 0., 0.}));
+        System.out.println(keskmisestParemaid(new double[]{10., 20., 30.}));
     }
 
     private static int keskmisestParemaid(double[] d) {
@@ -14,10 +14,14 @@ public class MassiivRangeltSuuremad {
         double summa = 0;
         double keskmine;
 
+        // Leiame massiivi elementide summa
         for (int i = 0; i < d.length; i++) {
             summa = summa + d[i];
         }
+
         keskmine = summa / d.length;
+
+        // Leiame keskmisest suuremate elementide arvu
         for (int i = 0; i < d.length; i++) {
             if (d[i] > keskmine) {
                 vastus++;

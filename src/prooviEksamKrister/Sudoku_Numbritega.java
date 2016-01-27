@@ -3,7 +3,7 @@ package prooviEksamKrister;
 /**
  * Created by X1 on 25.01.2016.
  */
-public class Sudoku {
+public class Sudoku_Numbritega {
 
     public static void main(String[] args) {
         int k = 0;
