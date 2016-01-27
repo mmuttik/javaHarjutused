@@ -13,7 +13,6 @@ public class Seljakott {
 
     public Seljakott(String omanikuNimi) {
 
-        return;
     }
 
 
@@ -57,7 +56,6 @@ public class Seljakott {
     public String omanikuNimi() {
         return omanikuNimi;
     }
-
 
 }
 
