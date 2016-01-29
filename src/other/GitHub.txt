@@ -1,10 +1,10 @@
-Linux:
+(---Linux---)
 
-pwd - 			kus olen?
-cd - 			mine/go
-mkdir - 		uue kausta loomine
-git - 			kas on git installitud?
-ctrl+shift+v - 		paste
+pwd  			                        kus olen?
+cd 			                            mine/go
+mkdir 		                            uue kausta loomine
+git  			                        kas on git installitud?
+ctrl+shift+v 	                        paste
 git clone
 git status
 git diff
@@ -12,7 +12,19 @@ git add --all
 git commit -m "kommentaar"
 git push
 
-Win:
+git show HEAD                           shows HEAD commit
+git checkout HEAD "filename"            will restore the file in your working directory to look exactly as it did when you last made a commit
+git reset HEAD "filename"               resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area
 
-Kıik muu peaks funkama...ainult, et "paste" on alt+space+e+p ("copy" alt+space+e+k) ja minu arvutis ¸le¸ldse
+---Git Branching---
+
+git branch                               ‚Äúwhich branch am I on?‚Äù
+git branch new_branch                    new_branch would be the name of the new branch you create, like photos or blurb. Be sure to name your branch something that describes the purpose of the branch. Also, branch names can‚Äôt contain whitespaces: new-branch and new_branch are valid branch names, but new branch is not
+git checkout branch_name                 switch branch; make commits on the new branch
+git merge branch_name                    merge branches
+
+
+---Win---
+
+KÔøΩik muu peaks funkama...ainult, et "paste" on alt+space+e+p ("copy" alt+space+e+k) ja minu arvutis ÔøΩleÔøΩldse
 "paste" on ctrl+shift+fn+i (fn+i on "insert").
