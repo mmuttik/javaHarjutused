@@ -1,4 +1,4 @@
-package other.sudoku;
+package other.sudokuProjekt;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 /**
  * Created by agrigorj on 25/12/15.
  * Klass m�ngija poolt t�idetud maatriksi kontrollimiseks.
- * P�him�te: kirjutame �les kasutaja pooltt lahendatud other.sudoku ja v�rdleme arvuti lahendusega.
+ * P�him�te: kirjutame �les kasutaja pooltt lahendatud other.sudokuProjekt ja v�rdleme arvuti lahendusega.
  * Kui lahendus on �ige, siis proggramm �tleb kasutajale, et on korras; kui on vead, siis programm hoiatab, et lahendus ei ole
  * �ige ja n�itab punasega valed ruudud.
  */

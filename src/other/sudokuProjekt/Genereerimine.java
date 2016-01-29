@@ -1,11 +1,11 @@
-package other.sudoku;
+package other.sudokuProjekt;
 
 import java.util.Random;
 
 
 /**
  * Created by agrigorj on 11/12/15.
- * Selle klassi kirjutamisel abimaterjalina on kasutatud other.sudoku Tutorial youtube video:  https://www.youtube.com/watch?v=HhW0OZC21kc&list=PLQV5mozTHmafsYxB8duQI6r9c5ZTShOEY
+ * Selle klassi kirjutamisel abimaterjalina on kasutatud other.sudokuProjekt Tutorial youtube video:  https://www.youtube.com/watch?v=HhW0OZC21kc&list=PLQV5mozTHmafsYxB8duQI6r9c5ZTShOEY
  */
 class Genereerimine {
     static int empty[][] = new int[9][9];
@@ -13,14 +13,14 @@ class Genereerimine {
     static int solved[][] = new int[9][9];
 
     static int[][] toSolve(int[][] forUser) {
-        //genereerime other.sudoku m�ngijale
+        //genereerime other.sudokuProjekt m�ngijale
         int[] firstRow = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9}; //tulevase maatriksi esimene rida
         shuffleArray(firstRow);//segame numbrid
         for (int i = 0; i < 9; i++) { //t�idame maatriksi esimese rea etteantud numbritega, �lej��nud numbrid t�idame nullidega
             for (int j = 1; j < 9; j++) {
                 empty[0][i] = firstRow[i];
                 empty[j][i] = 0;
-            }//tulemuseks saime maatriksi, mida meetod "other.sudoku" hakkab lahendama
+            }//tulemuseks saime maatriksi, mida meetod "other.sudokuProjekt" hakkab lahendama
         }
         int filled[][] = new int[9][9];
         //v�tame etteantud 9x9 maatriksi (forUser1, 2 v�i 3) ja segame v��rtused
@@ -64,7 +64,7 @@ class Genereerimine {
     }
 
     public static boolean kontroll(int x, int y, int[][] filled) {
-        //other.sudoku lahendamisel peame kontrollima, et numbrid ei kordu reas, veerus ja ruudus 3x3
+        //other.sudokuProjekt lahendamisel peame kontrollima, et numbrid ei kordu reas, veerus ja ruudus 3x3
         String temp = "";
         for (int i = 0; i < 9; i++) {
             //loeme rea ja veeru numbrid, kirjutame �les
@@ -83,7 +83,7 @@ class Genereerimine {
 
     public static int[][] sudoku(int y, int x, int[][] filled) {
         //lahendame empty maatriksi
-        while (!kontroll(8, 8, filled) || filled[8][8] == 0) { //kuni other.sudoku ei ole lahendatud, j�tkame ts�kli
+        while (!kontroll(8, 8, filled) || filled[8][8] == 0) { //kuni other.sudokuProjekt ei ole lahendatud, j�tkame ts�kli
             if (empty[y][x] != 0) { //kui empty maatriksi v��rtus ei ole null
                 filled[y][x] = empty[y][x];//siis kopeerime v��rtust
                 int yy, xx;

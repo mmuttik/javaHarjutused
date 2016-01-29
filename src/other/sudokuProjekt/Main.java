@@ -1,4 +1,4 @@
-package other.sudoku;
+package other.sudokuProjekt;
 
 
 import javafx.application.Application;
@@ -27,7 +27,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         lava = primaryStage;
         lava.setResizable(false);
-        lava.setTitle("other.sudoku v 1.0 by Andrei Grigorjev");
+        lava.setTitle("other.sudokuProjekt v 1.0 by Andrei Grigorjev");
         gameScreen.peaekraan();//käivitame peaakent
         gameScreen.logo();//peakna sisu
 

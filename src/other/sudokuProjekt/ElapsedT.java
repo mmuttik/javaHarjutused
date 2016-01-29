@@ -1,4 +1,4 @@
-package other.sudoku;
+package other.sudokuProjekt;
 
 import java.util.Timer;
 import java.util.TimerTask;

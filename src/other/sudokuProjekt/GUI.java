@@ -1,4 +1,4 @@
-package other.sudoku;
+package other.sudokuProjekt;
 
 
 import javafx.animation.Animation;
