@@ -24,7 +24,8 @@ git checkout branch_name                 switch branch; make commits on the new 
 git merge branch_name                    merge branches
 
 
+
 ---Win---
 
-K�ik muu peaks funkama...ainult, et "paste" on alt+space+e+p ("copy" alt+space+e+k) ja minu arvutis �le�ldse
+K8ik muu peaks funkama...ainult, et "paste" on alt+space+e+p ("copy" alt+space+e+k) ja minu arvutis yleyldse
 "paste" on ctrl+shift+fn+i (fn+i on "insert").
